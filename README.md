@@ -32,6 +32,10 @@ func main() {
 }
 ```
 
+## Need improvements
+* Add logger
+* Add error handling for all operations
+
 ## Getting Help
 
 - [Casbin](https://github.com/casbin/casbin)
