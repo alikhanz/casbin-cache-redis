@@ -4,7 +4,7 @@ Redis Cache is the [Redis](https://redis.io/) cache client for [Casbin](https://
 
 ## Installation
 
-    go get github.com/casbin/redis-adapter/v2
+    go get github.com/casbin/cache-redis/v2
 
 ## Simple Example
 
