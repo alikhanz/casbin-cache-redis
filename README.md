@@ -35,6 +35,7 @@ func main() {
 ## Need improvements
 * Add logger
 * Add error handling for all operations
+* Add tests
 
 ## Getting Help
 
