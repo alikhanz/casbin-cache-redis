@@ -27,10 +27,12 @@ func (c *RedisCache) Get(key string) ([]byte, error) {
 	result := c.client.Get(key)
 
 	if result.Err() == redis.Nil {
+		// Key was not found in cache.
 		return nil, cache.ErrNoSuchKey
 	}
 
 	if result.Err() != nil {
+		// Some error in redis client.
 		return nil, cache.ErrNoSuchKey
 	}
 
